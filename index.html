@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- font awesome cdnjs link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- /css file link -->
+    <link rel="stylesheet" href="style.css">
+
+   
+
+</head>
+<body>
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i> 
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#Skill">Skill</a>
+          
+            <a href="#Contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hey folk's  I'm</h3>
+            <h1>Zeeshan Haider</h1>
+            <h3>And I'm a <span>Web Developer</span></h3>
+           
+            <div class="social-media">
+                <a href="https://wa.me/923175061778?text=Hello%20Zeeshan!%20I%20wanna%20know%20more%20about%20you!" class="btn whatsapp-button">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/muhammad-zeeshan-haider-a9a2b4266/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/zeeshiboy07"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/zeeshiboy07?igsh=bGxkY3l2Z205OWdp"><i class='bx bxl-instagram-alt' ></i></a>
+            </div>
+            <!-- Add this code within your header section, before or after other navigation links -->
+           
+            <a href="https://wa.me/923175061778?text=Hello%20Zeeshan!%20I%20wanna%20know%20more%20about%20you!" class="btn whatsapp-button">
+                Contact on Whatsapp</i>
+            </a>
+            <!-- <a href="#" class="btn">Download CV</a> -->
+        </div>
+        <div class="home-img">
+            <img src="images/WhatsApp_Image_2023-12-23_at_19.54.37-removebg-preview.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- ABout section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/Abbb.jpeg" height="400" width="330" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>  Me </span></h2>
+            <h3>Web Developer</h3>
+            <p>
+                I am a software engineering student at NUML University, Islamabad, passionate about innovative solutions. I am eager to apply my skills in real-world projects and collaborate with industry professionals.
+                </p>
+                
+        </div>
+       
+    </section><!-- section Skill -->
+    <section class="Skill" id="Skill">
+        <h2 class="heading"> My <span > Skills</span></h2>
+        <div class="skill-container">
+            <div class="skill-box">
+                <h3><i class="fas fa-code" style="color: rgb(229, 89, 8);"></i> Programming Languages</h3>
+                <ul>
+                    <li><i class="fab fa-java"></i>Java</li>
+                 
+                    <li><i class="fab fa-js"></i> JavaScript</li>
+                    <li><i class="fab fa-php"></i>PHP</li>
+                </ul>
+            </div>
+            <div class="skill-box">
+                <h3><i class="fas fa-laptop-code" style="color: rgb(229, 89, 8);"></i> Web Development</h3>
+                <ul>
+                    <li><strong style="color: rgb(229, 89, 8)">Frontend:</strong> HTML5, CSS3, Bootstrap, JavaScript, React, TailwindCSS,</li>
+                    <li><strong style="color: rgb(229, 89, 8)">Backend:</strong> Node.js, Express, PHP</li>
+                    <li><strong style="color: rgb(229, 89, 8)">Database:</strong> MySQL, MongoDB</li>
+                             </ul>
+            </div>
+         
+            <div class="skill-box">
+                <h3 ><i class="fas fa-tools" style="color: rgb(229, 89, 8);"></i> Other Tools</h3>
+                <ul>
+                    <li><i class="fab fa-git-alt"></i> Git</li>
+                <li><i class="fab fa-github"></i> GitHub</li>
+            
+                <li><i class="fas fa-cube"></i> Webpack</li>
+                <li><i class="fab fa-jenkins"></i> Jenkins</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+
+   
+        <!-- contact section -->
+        <section class="Contact" id="Contact">
+            <h2 class="heading"><span style="color: aliceblue;">Interested to work together? Let's talk</span></h2>
+    
+            <form action="https://formspree.io/f/mvgpgnbl" method="POST">
+            
+                <div class="input-box">
+                    <input type="text" name="name" placeholder=" Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+    
+    
+                <textarea name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+                
+           </form>
+        </section>
+   
+    
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p> Copyright &copy; 2023 by  Zeeshan Haider| All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll revel -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- javascript -->
+    <script src="script.js"></script>
+
+
+    
+</body>
+</html>
